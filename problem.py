@@ -7,8 +7,8 @@ def swimmer_ode(x, y, vs, vr):
     return (vs * y - vr * np.sqrt(x**2 + y**2))/(vs * x)
 
 
-vs = 2
-vr = 1
+vs = 1
+vr = 2
 
 
 y0 = [0]  
